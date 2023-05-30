@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: "Poppins";
+  @apply text-gray-900;
+}
+
+main,
+header {
+  max-width: 1512px;
+}
+
+section {
+  @apply mb-20 lg:mb-28;
+}
+
+nav,
+.section {
+  @apply container w-[94%] mx-auto md:w-[80%];
+}
+
+img {
+  max-width: 100%;
+}
+
+a {
+  display: block;
+  white-space: nowrap;
+}
+
+.scroll-nav {
+  @apply border-gray-300;
+}
+
+.nav__link {
+  @apply block py-6 p-[3%] transition-colors text-center;
+}
+
+.nav__link:hover {
+  @apply bg-secondary text-white;
+}
+
+.nav__link-desk {
+  font-weight: 500;
+  font-size: 16px;
+  @apply transition-colors hover:text-primary;
+}
+
+h2,
+h1,
+h3,
+h4,
+h5,
+h6 {
+  @apply font-semibold;
+}
+
+h1 {
+  line-height: 1.2;
+}
+
+h2 {
+  @apply text-2xl md:text-4xl;
+}
+
+h3 {
+  @apply text-xl md:text-3xl;
+}
+
+h4 {
+  @apply text-lg md:text-2xl;
+}
+
+h5 {
+  @apply text-base md:text-xl;
+}
+
+h6 {
+  @apply text-sm md:text-base;
+}
+
+p {
+  @apply text-[15px] md:text-base text-gray-700;
+}
+
+.nav__list {
+  @apply md:hidden w-full h-screen absolute top-0;
+  background-color: rgba(230, 230, 230, 0.24);
+  backdrop-filter: blur(4px);
+  left: -100%;
+  transition: left 300ms ease-in;
+}
+
+.nav__list ul {
+  @apply bg-white w-1/2 h-full text-secondary;
+}
+
+.active {
+  left: 0;
+}
+
+.faqs__icon {
+  @apply text-lg lg:text-2xl rotate-45 transition-all duration-300;
+}
+
+.faqs__icon.active {
+  @apply rotate-[360deg];
+}
+
+.answer {
+  @apply pt-0 h-0 overflow-hidden transition-all duration-500;
+}
+
+.answer.active {
+  @apply block h-44 sm:h-28 pt-4;
+}
