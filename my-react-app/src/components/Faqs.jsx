@@ -51,7 +51,7 @@ const Faqs = () => {
           </p>
         </div>
 
-        <div className="my-6 lg:my-10 grid gap-3 lg:w-3/4 m-auto">
+        <div className="my-6 lg:my-10 grid space-y-3 lg:w-3/4 m-auto">
           {data.map((item, index) => {
             return (
               <div

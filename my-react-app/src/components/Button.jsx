@@ -2,7 +2,7 @@ import { IoPlayOutline } from "react-icons/io5";
 
 const Button = () => {
   return (
-    <div className="cta flex flex-col sm:flex-row gap-3">
+    <div className="cta flex flex-col sm:flex-row space-y-3 sm:space-x-3 sm:space-y-0">
       <a
         href="/"
         className="w-full sm:w-fit px-6 py-2 bg-primary transition-colors hover:bg-hoverColor text-white text-center rounded-md">

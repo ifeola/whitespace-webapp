@@ -37,7 +37,7 @@ const Features = () => {
         </div>
 
         <div className="mt-8 sm:mt-10 lg:grid grid-cols-2 gap-10 items-center">
-          <div className="flex flex-col gap-5">
+          <div className="flex flex-col space-y-5">
             {data.map((item) => {
               return (
                 <div className="text-secondary">

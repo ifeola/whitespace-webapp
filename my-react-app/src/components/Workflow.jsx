@@ -11,7 +11,7 @@ const Workflow = () => {
             Stay up to date with the most relevant information
           </p>
         </div>
-        <div className="flex flex-col md:flex-row items-center gap-3">
+        <div className="flex flex-col md:flex-row items-center space-y-3 md:space-x-5 md:space-y-0">
           <p className="flex gap-1 items-center">
             <span className="text-primary w-8 h-8 flex items-center justify-center rounded-full bg-blue-50">
               <IoCheckmarkCircleOutline />

@@ -12,7 +12,9 @@ const Subscription = () => {
             collections, news and special offers!
           </p>
 
-          <form action="/" className="flex flex-col sm:flex-row gap-2">
+          <form
+            action="/"
+            className="flex flex-col sm:flex-row space-y-3 sm:space-x-3 sm:space-y-0 ">
             <input
               type="text"
               placeholder="Your email address"

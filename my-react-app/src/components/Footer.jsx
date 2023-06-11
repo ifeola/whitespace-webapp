@@ -18,7 +18,7 @@ const Footer = () => {
               We love working with ambitious people. Let's build something great
               together now.
             </p>
-            <div className="text-gray-500 flex items-center gap-2">
+            <div className="text-gray-500 flex items-center space-x-3">
               <a
                 href=""
                 className="text-gray-500 transition-colors hover:text-primary text-xl">
@@ -41,7 +41,7 @@ const Footer = () => {
               </a>
             </div>
           </div>
-          <ul className="flex flex-col gap-2 text-gray-700 text-sm">
+          <ul className="flex flex-col text-gray-700 text-sm space-y-3">
             <h6 className="mb-1 text-gray-900">Product</h6>
             <li>
               <a href="/">Pricing</a>
@@ -59,7 +59,7 @@ const Footer = () => {
               <a href="/">Updates</a>
             </li>
           </ul>
-          <ul className="flex flex-col gap-2 text-gray-700 text-sm">
+          <ul className="flex flex-col text-gray-700 text-sm space-y-3">
             <h6 className="mb-1 text-gray-900">Product</h6>
             <li>
               <a href="/">About</a>
@@ -77,7 +77,7 @@ const Footer = () => {
               <a href="/">Contact</a>
             </li>
           </ul>
-          <ul className="flex flex-col gap-2 text-gray-700 col-start-1 col-end-3 sm:col-end-2 md:col-span-1 text-sm">
+          <ul className="flex flex-col space-y-3 text-gray-700 col-start-1 col-end-3 sm:col-end-2 md:col-span-1 text-sm">
             <h6 className="mb-1 text-gray-900">Support</h6>
             <li>
               <a href="/">Help Center</a>
@@ -92,9 +92,9 @@ const Footer = () => {
               <a href="/">Chat Support</a>
             </li>
           </ul>
-          <div className="flex flex-col gap-2 col-start-1 col-end-3 sm:col-end-2 md:col-span-1">
+          <div className="flex flex-col space-y-3 col-start-1 col-end-3 sm:col-end-2 md:col-span-1">
             <h6 className="mb-1 text-gray-900">Contact Us</h6>
-            <div className="flex flex-col gap-2 text-gray-700">
+            <div className="flex flex-col space-y-3 text-gray-700">
               <p className="flex items-center gap-2 text-sm">
                 <IoMailOutline className="text-lg" />
                 <span>hello@ifeola.design</span>
